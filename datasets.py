@@ -19,7 +19,6 @@ import jax
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
-def forward
 def get_data_scaler(config):
   """Data normalizer. Assume data are always in [0, 1]."""
   if config.data.centered:
